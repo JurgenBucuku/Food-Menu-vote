@@ -1,24 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import DinnerVote from './components/dinnerVote';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div>
+        <DinnerVote img="https://static.pexels.com/photos/46239/salmon-dish-food-meal-46239.jpeg"/>
+        <DinnerVote img="https://static.pexels.com/photos/58722/pexels-photo-58722.jpeg"/>
+        <DinnerVote img="https://static.pexels.com/photos/70497/pexels-photo-70497.jpeg"/>
+      </div>
   );
 }
 
