@@ -15,6 +15,7 @@ function DinnerVote(props) {
         display: "inline-block",
         textAlign: "center",
         margin: 20,
+        borderRadius: 10,
         height: 500,
         width: 300,
         padding: 0,
@@ -24,6 +25,7 @@ function DinnerVote(props) {
       }
       var foodStyle = {
         height: 200,
+        borderRadius: 10,
         width: 200,
         marginTop: 20
       }
